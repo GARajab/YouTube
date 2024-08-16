@@ -74,3 +74,9 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.mid-section mic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
