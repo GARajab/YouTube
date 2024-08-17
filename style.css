@@ -53,30 +53,51 @@ header {
   -moz-border-radius: 30px 0 0 30px;
   -ms-border-radius: 30px 0 0 30px;
   -o-border-radius: 30px 0 0 30px;
-  border: 1px solid #665f5ffd;
+  border: 1px solid #e0e0e0;
   border-right: none;
 }
 
 .mid-section button {
-  width: 47px;
+  width: 70px;
   border-radius: 0 30px 30px 0;
   -webkit-border-radius: 0 30px 30px 0;
   -moz-border-radius: 0 30px 30px 0;
   -ms-border-radius: 0 30px 30px 0;
   -o-border-radius: 0 30px 30px 0;
-  border: 1px solid #665f5ffd;
+  border: 1px solid #e0e0e0;
   cursor: pointer;
-  /* height: 36px; */
+  background-color: #f8f8f8;
+  padding: 0 5px 0 5px;
 }
 
-.mid-section mic {
+.mid-section button:hover {
+  border-color: #c6c6c6;
+  background-color: #f0f0f0;
+}
+
+.mid-section .mic {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  width: 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
 }
 
-.mid-section mic {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mid-section .mic:hover {
+  border-color: #c6c6c6;
+  background-color: #f0f0f0;
+}
+
+.right-section a {
+  color: #665f5ffd;
+  text-decoration: none;
+  padding: 0 10px;
+  cursor: pointer;
 }
